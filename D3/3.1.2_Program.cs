@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace Ovn_3_1_1
+namespace Ovn_3_1_2
 {
     internal class Program
     {
@@ -15,10 +15,10 @@ namespace Ovn_3_1_1
                 Console.Write(r+" ");
             }
             Console.WriteLine();
-            for (int i = 0; i < 5; i++)
+            while (q.Count > 0)
             {
                 int n = q.Dequeue();
-                Console.Write(n+" ");
+                Console.Write(n + " ");
             }
             Console.WriteLine();
         }
