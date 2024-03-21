@@ -39,6 +39,7 @@ namespace ovn_5_1_3_sno {
             // Sortera med avseende på höjd:
             List<Rectangle> sorth = InsertionSort(rects, LargerHeight);
             // Skriv ut lista:
+            Console.WriteLine("---- Sorted on height ----");
             foreach (Rectangle r in sorth) Console.WriteLine(r);
             Console.WriteLine();
         }
