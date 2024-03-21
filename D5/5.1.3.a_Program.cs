@@ -50,7 +50,7 @@ namespace ovn_5_1_3_a
             Console.WriteLine("---- Sorted on height ----");
             foreach (Rectangle r in sorth) Console.WriteLine(r);
             Console.WriteLine();
-            // Sortera med avseende på höjd:
+            // Sortera med avseende på bredd:
             List<Rectangle> sortw = InsertionSort(rects, LargerWidth);
             // Skriv ut lista:
             Console.WriteLine("---- Sorted on width ----");
