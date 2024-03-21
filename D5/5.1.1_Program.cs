@@ -1,4 +1,4 @@
-namespace test_delegates_slask2
+namespace ovn_5_1_1
 {
     internal class Program
     {
